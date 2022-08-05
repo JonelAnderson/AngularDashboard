@@ -1,0 +1,554 @@
+    <nav class="sidenav shadow-right sidenav-light">
+        <div class="sidenav-menu">
+            <div class="nav accordion" id="accordionSidenav">
+                <!-- Sidenav Link (Alerts)-->
+                <!-- * * Note: * * Visible only on and above the sm breakpoint-->
+                <a class="nav-link d-sm-none" href="#!">
+                    <div class="nav-link-icon"><i data-feather="bell"></i></div>
+                    Alerts
+                    <span class="badge bg-warning-soft text-warning ms-auto">4 New!</span>
+                </a>
+                <!-- Sidenav Link (Messages)-->
+                <!-- * * Note: * * Visible only on and above the sm breakpoint-->
+                <a class="nav-link d-sm-none" href="#!">
+                    <div class="nav-link-icon"><i data-feather="mail"></i></div>
+                    Messages
+                    <span class="badge bg-success-soft text-success ms-auto">2 New!</span>
+                </a>
+                <!-- Sidenav (Dashboard)-->
+                <a class="nav-link active mt-1" href="#">
+                    <div class="nav-link-icon"><i class='bx bx-line-chart'></i></div>
+                    DASHBOARDS
+                </a>
+                <!-- Sidenav (Punto de venta)-->
+                <a class="nav-link mt-1" href="#">
+                    <div class="nav-link-icon"><i class='bx bx-store-alt'></i></div>
+                    PUNTO DE VENTA
+                </a>
+                <!-- Sidenav Accordion (Ventas)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseVenta" aria-expanded="false" aria-controls="collapseVenta">
+                    <div class="nav-link-icon"><i class='bx bx-dollar-circle'></i></div>
+                    VENTAS
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseVenta" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Listas Ventas
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bxs-share'></i></div>
+                            Lista devueltos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-cart'></i></div>
+                            Pedidos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-credit-card'></i></div>
+                            Tarjeta de regalo
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Cotizacion)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseCotizacion" aria-expanded="false" aria-controls="collapseCotizacion">
+                    <div class="nav-link-icon"><i class='bx bx-heart-circle'></i></div>
+                    COTIZACIÓN
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseCotizacion" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar cotización
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de cotizaciones
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Pagos)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePago" aria-expanded="false" aria-controls="collapsePago">
+                    <div class="nav-link-icon"><i class='bx bx-trending-up'></i></div>
+                    PAGOS
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapsePago" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista pagos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de pagos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-dollar'></i></div>
+                            Pago Debido Hoy
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-dollar'></i></div>
+                            Pago Debido a Todos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-shape-polygon'></i></div>
+                            Pago por Exp.
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-show'></i></div>
+                            Informe general
+                        </a>
+                    </nav>
+                </div>
+                
+                <!-- Sidenav Accordion (Pagos)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseCompra" aria-expanded="false" aria-controls="collapseCompra">
+                    <div class="nav-link-icon"><i class='bx bx-store'></i></div>
+                    COMPRA
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseCompra" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de compras
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar compra
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-dollar-circle' ></i></div>
+                            Factura Debida
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bxs-share'></i></div>
+                            Lista devueltos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Registro de compras
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Transferencia de stock)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseStock" aria-expanded="false" aria-controls="collapseStock">
+                    <div class="nav-link-icon"><i class='bx bx-transfer'></i></div>
+                    TRANSFERENCIA DE STOCK
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseStock" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de Transferencia
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Transferencia
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-transfer'></i></div>
+                            Lista de Transferencia
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt'></i></div>
+                            Recibir Lista
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Producto)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseProducto" aria-expanded="false" aria-controls="collapseProducto">
+                    <div class="nav-link-icon"><i class='bx bx-grid-alt'></i></div>
+                    PRODUCTO
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseProducto" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de Productos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Producto
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-barcode'></i></div>
+                            Código de Barras
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-category'></i></div>
+                            Lista de Categoria
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Categoria
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-import'></i></div>
+                            Importación (.xls)
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-error'></i></div>
+                            Alerta de Stock
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Cliente)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseCliente" aria-expanded="false" aria-controls="collapseCliente">
+                    <div class="nav-link-icon"><i class='bx bxs-user-detail'></i></div>
+                    CLIENTE
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseCliente" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bxs-user-detail'></i></div>
+                            Lista de Clientes
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Cliente
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Proveedor)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor">
+                    <div class="nav-link-icon"><i class='bx bxs-truck'></i></div>
+                    PROVEEDOR
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseProveedor" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bxs-user-detail'></i></div>
+                            Lista de Proveedores
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Proveedor
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Contabilidad)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseContabilidad" aria-expanded="false" aria-controls="collapseContabilidad">
+                    <div class="nav-link-icon"><i class='bx bxs-bank' ></i></div>
+                    CONTABILIDAD
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseContabilidad" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Depositar
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-minus'></i></div>
+                            Retirar
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de transacciones
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Transferencia
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-transfer'></i></div>
+                            Lista de Transferencia
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Cuenta Bancaria
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bxs-bank' ></i></div>
+                            Lista de Cuentas Bancarias
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-sun' ></i></div>
+                            Fuente de Ingresos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Fuente de Ingresos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-dollar-circle' ></i></div>
+                            Ingresos Meses
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-minus'></i></div>
+                            Gastos Meses
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-stats'></i></div>
+                            Ingesos vs Gatos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-book-bookmark'></i></div>
+                            Libro de Pago
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Gasto)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseGasto" aria-expanded="false" aria-controls="collapseGasto">
+                    <div class="nav-link-icon"><i class='bx bx-minus-circle'></i></div>
+                    GASTO
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseGasto" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de Gastos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Gasto
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de Categoria
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Categoria
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-minus'></i></div>
+                            Gastos Meses
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Resumen
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Gerente de prestamo)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseGPrestamo" aria-expanded="false" aria-controls="collapseGPrestamo">
+                    <div class="nav-link-icon"><i class='bx bxs-bank'></i></div>
+                    GERENTE DE PRESTAMO
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseGPrestamo" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista de Prestamo
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Tomar Prestamo
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Resumen
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Reportes)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseReporte" aria-expanded="false" aria-controls="collapseReporte">
+                    <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                    REPORTES
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseReporte" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-book-bookmark' ></i></div>
+                            Informe General
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Colección
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Colección Debida
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Pagos Debido
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Venta
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Compra
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Vender Informe de Pago
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Pago
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Impuestos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Impuestos
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-book-bookmark' ></i></div>
+                            Informe de Resumen de Impuesto
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de Stock
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav (Analitica)-->
+                <a class="nav-link mt-1" href="#">
+                    <div class="nav-link-icon"><i class='bx bxs-report' ></i></div>
+                    ANALITICA
+                </a>
+                <!-- Sidenav Accordion (SMS)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseSMS" aria-expanded="false" aria-controls="collapseSMS">
+                    <div class="nav-link-icon"><i class='bx bx-message-rounded-dots' ></i></div>
+                    MENSAJE
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseSMS" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-paper-plane'></i></div>
+                            Enviar SMS
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Informe de SMS
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-cog' ></i></div>
+                            Configuracione de SMS
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Accordion (Usuario)-->
+                <a class="nav-link collapsed mt-1" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUser" aria-expanded="false" aria-controls="collapseUser">
+                    <div class="nav-link-icon"><i class='bx bxs-user-detail'></i></div>
+                    USUARIO
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseUser" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista Usuario
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Usuario
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-plus-circle'></i></div>
+                            Agregar Grupo de Usuario
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Lista Grupo de Usuario
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-lock'></i></div>
+                            Password
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav Heading (Configuracion)-->
+                <div class="sidenav-menu-heading">CONFIGURACIONES</div>
+                <!-- Sidenav Accordion (Config sistema)-->
+                <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseConfig" aria-expanded="false" aria-controls="collapseConfig">
+                    <div class="nav-link-icon"><i class='bx bx-cog' ></i></div>
+                    CONFIGURACION DEL SISTEMA
+                    <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseConfig" data-bs-parent="#accordionSidenav">
+                    <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavLayout">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-food-menu'></i></div>
+                            Alamacenar
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-receipt' ></i></div>
+                            Plantilla de Recibo
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-heart-circle'></i></div>
+                            Preferencia de Usuario
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-captions'></i></div>
+                            Marca
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-dollar' ></i></div>
+                            Moneda
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-dollar' ></i></div>
+                            Metodo de Pago
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-tachometer'></i></div>
+                            Unidad
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-dollar' ></i></div>
+                            Tasa de Impuesto
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bxs-cabinet'></i></div>
+                            Caja
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-printer' ></i></div>
+                            Impresora
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-star'></i></div>
+                            Idioma
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-cloud-upload'></i></div>
+                            Copia de Seguridad
+                        </a>
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon"><i class='bx bx-server'></i></div>
+                            Resetear Datos
+                        </a>
+                    </nav>
+                </div>
+                <!-- Sidenav (Admin archivo)-->
+                <a class="nav-link mt-1" href="#">
+                    <div class="nav-link-icon"><i class='bx bx-folder-open'></i></div>
+                    ADMINISTRACION DE ARCHIVO
+                </a>
+                <!-- Sidenav (Cambio de tienda))-->
+                <a class="nav-link mt-1" href="#">
+                    <div class="nav-link-icon"><i class='bx bx-directions'></i></div>
+                    CAMBIO DE TIENDA
+                </a>
+            </div>
+        </div>
+        <br>
+        <!-- Sidenav Footer-->
+        <div class="sidenav-footer">
+            <div class="sidenav-footer-content">
+                <div class="sidenav-footer-subtitle">Logged in as:</div>
+                <div class="sidenav-footer-title">Valerie Luna</div>
+            </div>
+        </div>
+    </nav>
