@@ -13,6 +13,7 @@ import { RegisterComponent } from './auth/register/register.component';
 import { ResetComponent } from './auth/password/reset/reset.component';
 import { NopageFoundComponent } from './nopage-found/nopage-found.component';
 import { CargarScriptsService } from './cargar-scripts.service';
+import { BillingComponent } from './pages/account/billing/billing.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CargarScriptsService } from './cargar-scripts.service';
     LoginComponent,
     RegisterComponent,
     ResetComponent,
-    NopageFoundComponent
+    NopageFoundComponent,
+    BillingComponent 
   ],
   imports: [
     BrowserModule,

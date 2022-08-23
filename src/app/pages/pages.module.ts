@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PagesComponent } from './pages.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { BillingComponent } from './account/billing/billing.component';
 
 
 
@@ -11,6 +12,7 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [
     DashboardComponent,
     PagesComponent,
+    BillingComponent,
   ],
   imports: [
     CommonModule,
@@ -18,7 +20,8 @@ import { SharedModule } from '../shared/shared.module';
     SharedModule
   ],
   exports: [
-    DashboardComponent
+    DashboardComponent,
+    BillingComponent
   ]
 })
 export class PagesModule { }
